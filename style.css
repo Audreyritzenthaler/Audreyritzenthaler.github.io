@@ -579,8 +579,7 @@ textarea {
 }
 
 #menu-burger:hover {
-    opacity:.75;
-     transition:.5s;
+    opacity: 0.6;
 }
 
 #menu-burger.clicked .bar1 {
@@ -627,8 +626,7 @@ textarea {
 }
 
 #menu ul li a:hover {
-    background:#f1c40f;
-    transition: background .5s;
+    opacity: 0.8;
 }
 
 #menu.visible {animation:.5s slideRight ease-in forwards; transition-delay:0;}
