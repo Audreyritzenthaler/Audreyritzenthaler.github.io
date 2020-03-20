@@ -1,7 +1,7 @@
 // Pour le bouton du formulaire, création d'une modal pour signifier que la demande de contact a bien été envoyé.
 
 function button() {
-    window.alert("Merci pour votre prise de contact et à très vite !")
+    alert("Merci pour votre prise de contact et à très vite !")
 };
 
 // Création d'une modal contenant l'image sur laquelle l'utilisateur vient de cliquer
