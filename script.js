@@ -39,6 +39,12 @@ function myFunction() {
 const myBox = document.querySelector('.table');
 window.setInterval(function Shadow() {
   myBox.classList.toggle("shadowBox");
+
+}, 1050)
+
+const mySecondBox = document.querySelector('.containerportfolioindex');
+window.setInterval(function Shadow() {
+  mySecondBox.classList.toggle("shadowBox");
 }, 1050)
 
 //Button scroll

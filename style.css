@@ -139,8 +139,9 @@ h4 {
     justify-content: space-around;
     text-align: justify;
     border-radius: 5%;
+    border: solid 1px pink;
     box-shadow: 5px 5px 5px #FAACA8;
-    ;
+    transition: 1s;
 }
 
 .containerportfolioindex div{
