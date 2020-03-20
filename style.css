@@ -779,6 +779,11 @@ textarea {
     .overlay-image .text {
         font-size: 30px;
     }
+
+    .sociaux {
+        display: flex;
+        flex-flow: row wrap;
+    }
 }
 
 @media screen and (max-width:600px) {
