@@ -80,7 +80,7 @@ h1 {
     color: white;
     font-family: "Amatic SC", sans-serif;
     font-size: 90px;
-    padding: 0.5em;
+    padding: 0.1em;
 }
 
 a {
@@ -387,8 +387,6 @@ hr {
 footer {
     background-color:#86A69D;
     color: white;
-    height: 10%;
-    padding-bottom: 2em;
     display:flex; 
     justify-content:  space-around; 
     font-family: "Amatic SC", sans-serif;
@@ -409,12 +407,6 @@ footer a{
 footer a:hover{
     color: black;
     text-decoration:underline;
-}
-
-.footer_title{
-    text-align:left;
-    margin:1em;
-    font-size: 30px;
 }
 
 .favorite_link{
@@ -542,6 +534,8 @@ textarea {
     margin: auto;
     display: block;
     width: 50%;
+    padding: 1em;
+    background-color:#FFF;
     box-shadow: 1px 1px 1px rgb(148, 147, 147, 0.1);
   }
 
@@ -691,21 +685,8 @@ textarea {
         flex-direction: column;
     }
 
-    .me_suivre li{
-        padding-bottom: 2em;
-        text-align: center;
-    }
-
     .copyright a, .copyright p{
         margin:0;
-    }
-
-    .footer_title{
-        margin:0.5em;
-    }
-
-    footer {
-        padding-bottom: 0em;
     }
 
     p {
